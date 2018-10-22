@@ -1,0 +1,178 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* stylelint-disable */
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section{display:block}html,.stylelint{line-height:1}body,.stylelint{line-height:inherit}ol,ul,.stylelint{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+/* stylelint-enable */
+
+/* Begin site styles below */
+
+html {
+  background-color: darkred;
+}
+
+html::after {
+  content: "";
+  background-image: url(../images/20199.jpg);
+  background-repeat: space;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+
+h1 {
+  color: #e3d6d2;
+  position: relative;
+  text-align: center;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  font-size: 400%;
+  font-family: 'Work Sans', sans-serif, arial;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+body {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+
+img {
+  display: block;
+  max-width: 90%;
+  padding-bottom: 0;
+  margin-bottom: 0;
+
+}
+
+section {
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+#container {
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  top: -45px;
+  padding-bottom: 0;
+  padding-left: 5%;
+}
+
+#audience, #info, #contact {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#audience {
+  padding-top: 11%;
+  padding-left: 4%;
+}
+
+#audience h2 {
+  color: #c00;
+  display: inline;
+  padding-left: 13%;
+  font-family: 'EB Garamond', serif;
+  font-size: 150%;
+}
+
+#audience p {
+  font-family: 'EB Garamond', serif;
+  display: inline;
+  padding: 7%;
+  font-size: 130%;
+  color: white;
+}
+
+#info {
+  padding-top: 22%;
+  padding-left: 17.5%;
+  font-size: 105%;
+}
+
+#info h2 {
+  color: #c00;
+  font-family: 'EB Garamond', serif;
+  margin-bottom: 0;
+}
+
+#info ul {
+  padding: 0;
+  display: inline;
+  list-style-type: none;
+}
+
+#info li {
+  font-family: 'EB Garamond', serif;
+  display: inline;
+  color: white;
+}
+
+#contact {
+  padding-top: 33%;
+  padding-left: 17.5%;
+  font-size: 105%;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+#contact h2 {
+  color: #c00;
+  font-family: 'EB Garamond', serif;
+  margin-bottom: 0;
+}
+
+#contact ul {
+  display: inline;
+  list-style-type: none;
+  padding: 0;
+}
+
+#contact li {
+  font-family: 'EB Garamond', serif;
+  display: inline;
+  color: white;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+#hawk-cap {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  margin-bottom: 8%;
+  border-left: solid 70px transparent;
+  border-right: solid 70px transparent;
+  filter: drop-shadow(0 0 30px #a11b1b);
+}
+
+
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 50px #4d494d, 0 0 20px #4d494d, 0 0 30px #fc2f2f, 0 0 40px #fc2f2f, 0 0 50px #fc2f2f, 0 0 60px #656669, 0 0 70px #656669;
+  }
+  to {
+    text-shadow: 0 0 100px #4d494d, 0 0 30px #a62a00, 0 0 40px #a62a00, 0 0 50px #a62a00, 0 0 60px #8a0043, 0 0 70px #8a0043, 0 0 80px #8a0043;
+  }
+}
