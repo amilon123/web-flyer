@@ -93,6 +93,7 @@ section {
   padding-left: 13%;
   font-family: 'EB Garamond', serif;
   font-size: 150%;
+  font-weight: bold;
 }
 
 #audience p {
@@ -112,7 +113,8 @@ section {
 #info h2 {
   color: #c00;
   font-family: 'EB Garamond', serif;
-  margin-bottom: 0;
+  font-size: 120%;
+  margin-bottom: 0.5%;
 }
 
 #info ul {
@@ -138,7 +140,8 @@ section {
 #contact h2 {
   color: #c00;
   font-family: 'EB Garamond', serif;
-  margin-bottom: 0;
+  font-size: 120%;
+  margin-bottom: 0.5%;
 }
 
 #contact ul {
