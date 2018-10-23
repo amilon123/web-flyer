@@ -92,15 +92,14 @@ section {
   display: inline;
   padding-left: 13%;
   font-family: 'EB Garamond', serif;
-  font-size: 150%;
+  font-size: 120%;
   font-weight: bold;
 }
 
 #audience p {
   font-family: 'EB Garamond', serif;
-  display: inline;
-  padding: 7%;
-  font-size: 130%;
+  padding-left: 13%;
+  font-size: 105%;
   color: white;
 }
 
@@ -156,6 +155,17 @@ section {
   color: white;
   margin-bottom: 0;
   padding-bottom: 0;
+}
+
+#dipolma {
+  display: block;
+  position: absolute;
+  margin-left: 15%;
+  margin-right: auto;
+  width: 55%;
+  margin-bottom: 0;
+  margin-top: -410px;
+  padding: 0;
 }
 
 #hawk-cap {
